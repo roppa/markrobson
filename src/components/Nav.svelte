@@ -23,7 +23,7 @@
       <span class="sr-only">Toggle navigation</span>
     </button>
 
-    <a class="navbar-brand mobile-brand m-auto" href="">
+    <a class="navbar-brand mobile-brand m-auto" href="#">
       <img src="images/logo-icon.png" alt="" />
     </a>
 
@@ -72,10 +72,10 @@
           <div
             class="dropdown-menu drop-to-right animated fadeIn fast"
             aria-labelledby="dropdown2">
-            <a class="dropdown-item" href="">Framed</a>
-            <a class="dropdown-item" href="">Print</a>
-            <a class="dropdown-item" href="">Digital</a>
-            <a class="dropdown-item" href="">Photography</a>
+            <a class="dropdown-item" href="#">Framed</a>
+            <a class="dropdown-item" href="#">Print</a>
+            <a class="dropdown-item" href="#">Digital</a>
+            <a class="dropdown-item" href="#">Photography</a>
           </div>
         </li>
 
@@ -83,7 +83,7 @@
 
     </div>
 
-    <a class="navbar-brand m-auto" href="">
+    <a class="navbar-brand m-auto" href="#">
       <img src="images/logo-icon.png" alt="" />
     </a>
 
@@ -100,7 +100,6 @@
         <li class="nav-item dropdown extra-dropdowns">
           <a
             class="nav-link last-menu-item has-dropdown-toggle dropdown-toggle"
-            href=""
             id="dropdown3"
             data-toggle="dropdown"
             aria-haspopup="true"
@@ -114,22 +113,22 @@
             <div class="cart-small">
               <img src="images/product-small1.jpg" alt="" />
               <p>
-                <a href="" class="text-black">Amazing Framed Art</a>
+                <a href="." class="text-black">Amazing Framed Art</a>
                 <br />
                 <span>1 x $29.99</span>
               </p>
-              <a href="">
+              <a href=".">
                 <i class="md-icon dp14 close-icon">close</i>
               </a>
             </div>
             <div class="cart-small">
               <img src="images/product-small2.jpg" alt="" />
               <p>
-                <a href="" class="text-black">Printed Photography</a>
+                <a href="." class="text-black">Printed Photography</a>
                 <br />
                 <span>1 x $14.99</span>
               </p>
-              <a href="">
+              <a href=".">
                 <i class="md-icon dp14 close-icon">close</i>
               </a>
             </div>
