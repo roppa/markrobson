@@ -1,10 +1,14 @@
-<script>
-  export let segment;
-</script>
-
 <style lang="scss">
   @import "../styles/style.scss";
 </style>
+
+<script>
+  export let segment;
+  function toggleMenu() {
+    console.log(this);
+    console.log("test");
+  }
+</script>
 
 <nav
   class="navbar navbar-expand-lg navbar-light bg-white custom-menu split-menu">
@@ -16,14 +20,15 @@
       data-target="#navbar-toggle-1"
       aria-controls="navbar-toggle-1"
       aria-expanded="false"
-      aria-label="Toggle navigation">
+      aria-label="Toggle navigation"
+      on:click={toggleMenu}>
       <span class="icon-bar top-bar" />
       <span class="icon-bar middle-bar" />
       <span class="icon-bar bottom-bar" />
       <span class="sr-only">Toggle navigation</span>
     </button>
 
-    <a class="navbar-brand mobile-brand m-auto" href="#">
+    <a class="navbar-brand mobile-brand m-auto" href=".">
       <img src="images/logo-icon.png" alt="" />
     </a>
 
@@ -34,7 +39,8 @@
       data-target="#navbar-toggle-2"
       aria-controls="navbar-toggle-2"
       aria-expanded="false"
-      aria-label="Toggle navigation">
+      aria-label="Toggle navigation"
+      on:click={toggleMenu}>
       <span class="icon-bar top-bar" />
       <span class="icon-bar middle-bar" />
       <span class="icon-bar bottom-bar" />
@@ -72,10 +78,10 @@
           <div
             class="dropdown-menu drop-to-right animated fadeIn fast"
             aria-labelledby="dropdown2">
-            <a class="dropdown-item" href="#">Framed</a>
-            <a class="dropdown-item" href="#">Print</a>
-            <a class="dropdown-item" href="#">Digital</a>
-            <a class="dropdown-item" href="#">Photography</a>
+            <a class="dropdown-item" href=".">Framed</a>
+            <a class="dropdown-item" href=".">Print</a>
+            <a class="dropdown-item" href=".">Digital</a>
+            <a class="dropdown-item" href=".">Photography</a>
           </div>
         </li>
 
@@ -83,7 +89,7 @@
 
     </div>
 
-    <a class="navbar-brand m-auto" href="#">
+    <a class="navbar-brand m-auto" href=".">
       <img src="images/logo-icon.png" alt="" />
     </a>
 

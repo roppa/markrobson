@@ -12,6 +12,10 @@
 <TopMenu />
 <Nav {segment} />
 
+<button on:click={() => console.log('this is a test')}>
+  hijkadskfaksdjf askdjfasdklfjasd;lkfj
+</button>
+
 <main>
   <slot />
 </main>
