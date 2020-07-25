@@ -489,6 +489,10 @@ img {
   height: auto;
 }
 
+.img-auto {
+  width: auto !important;
+}
+
 .img-thumbnail {
   padding: 5px;
   background-color: #fff;
@@ -3103,7 +3107,7 @@ textarea {
 }
 
 .navbar-brand img {
-  width: auto;
+  width: max-content;
   max-height: 50px;
 }
 
