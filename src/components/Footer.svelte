@@ -9,7 +9,7 @@
     <div class="row">
       <div class="col-lg-3 text-center">
         <div class="widget">
-          <img src="images/logo-icon.png" alt="logo" class="footer-logo" />
+          <img src="images/logo-icon.svg" alt="logo" class="footer-logo" />
           <p class="mb-3">Vivamus sodales eleifend sem eu malesuada nunc.</p>
         </div>
 

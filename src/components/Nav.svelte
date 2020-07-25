@@ -87,7 +87,7 @@
     </div>
 
     <a class="navbar-brand m-auto" href=".">
-      <img src="images/logo-icon.png" alt="" />
+      <img src="images/logo-icon.svg" alt="" />
     </a>
 
   </div>
