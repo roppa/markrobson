@@ -40,24 +40,7 @@
             blog
           </a>
         </li>
-        <div class="dropdown-menu drop-to-right animated fadeIn fast" aria-labelledby="dropdown2">
-          <a class="dropdown-item" href=".">Framed</a>
-          <a class="dropdown-item" href=".">Print</a>
-          <a class="dropdown-item" href=".">Digital</a>
-          <a class="dropdown-item" href=".">Photography</a>
-        </div>
-        </li>
 
-      </ul>
-
-    </div>
-
-    <a class="navbar-brand m-auto" href=".">
-      <img src="images/logo-icon.png" alt="" />
-    </a>
-
-    <div class="collapse navbar-collapse" id="navbar-toggle-2">
-      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a aria-current={segment==='contact' ? 'page' : undefined} href="contact"
             class="nav-link before-count {segment === 'contact' ? 'active' : undefined}">
