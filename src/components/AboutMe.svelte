@@ -2,7 +2,7 @@
   <div class="about-widget">
     <h4 class="widget-title text-center">Mark Robson</h4>
     <div class="about-image text-center">
-      <img src="images/creator.jpg" alt="" />
+      <img src="images/me.jpg" alt="" />
     </div>
     <p class="text-center">Artist</p>
   </div>

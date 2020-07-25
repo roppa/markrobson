@@ -1,3 +1,7 @@
+<script>
+  import ContactWidget from "./ContactWidget.svelte";
+</script>
+
 <div class="spacer-2x">&nbsp;</div>
 
 <div class="footer-widgets">
@@ -47,32 +51,7 @@
 
       </div>
 
-      <div class="col-lg-3 text-center">
-        <div class="widget">
-          <h3 class="widget-title">CONTACT US</h3>
-          <ul class="footer-list pl-0 mb-0">
-            <li class="mb-3">
-              <a href="tel:01234567890">
-                <i class="fas fa-phone mr-2" />
-                0123 456 7890
-              </a>
-            </li>
-            <li class="mb-3">
-              <a href="mailto:info@youriste.com">
-                <i class="fas fa-envelope mr-2" />
-                info@yoursite.com
-              </a>
-            </li>
-            <li class="mb-3">
-              <a href=".">
-                <i class="fab fa-twitter mr-2" />
-                @GallerioTwitter
-              </a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
+      <ContactWidget />
 
     </div>
 
