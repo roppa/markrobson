@@ -1,8 +1,9 @@
 <script context="module">
+  import AboutMe from "../../components/AboutMe.svelte";
   export function preload({ params, query }) {
     return this.fetch(`blog.json`)
-      .then((r) => r.json())
-      .then((posts) => {
+      .then(r => r.json())
+      .then(posts => {
         return { posts };
       });
   }
@@ -62,18 +63,7 @@
       </div>
 
       <div class="col-md-4 blog-sidebar mt-3">
-        <div class="sidebar-widget">
-          <div class="about-widget">
-            <h4 class="widget-title text-center">ABOUT ME</h4>
-            <div class="about-image text-center">
-              <img src="images/creator.jpg" alt="" />
-            </div>
-            <p class="text-center">
-              Quisque tincidunt sodales ante, nec porttitor sem pharetra vitae.
-              Nullam quis dui sit amet lectus facilisis iaculis pulvinar.
-            </p>
-          </div>
-        </div>
+        <AboutMe />
 
         <div class="sidebar-widget">
           <h4 class="widget-title text-center">RECENT POSTS</h4>
