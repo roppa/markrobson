@@ -21,14 +21,23 @@
     <div class="collapse navbar-collapse" id="navbar-toggle-1">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a href="." aria-current={segment===undefined ? 'page' : undefined} class="nav-link first-menu-item">
+          <a href="." aria-current={segment===undefined ? 'page' : undefined}
+            class="nav-link first-menu-item {!segment ? 'active' : ''}">
             home
           </a>
         </li>
 
         <li class="nav-item">
-          <a href="about" aria-current={segment==='about' ? 'page' : undefined} class="nav-link">
+          <a href="about" aria-current={segment==='about' ? 'page' : undefined}
+            class="nav-link {segment === 'about' ? 'active' : ''}">
             about
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="blog" aria-current={segment==='blog' ? 'page' : undefined}
+            class="nav-link {segment === 'blog' ? 'active' : ''}">
+            blog
           </a>
         </li>
 
