@@ -1,19 +1,16 @@
 <script>
-  import Nav from "../components/Nav.svelte";
-  import TopMenu from "../components/TopMenu.svelte";
-  import Footer from "../components/Footer.svelte";
-  export let segment;
-</script>
+	import Nav from "../components/Nav.svelte";
+	import TopMenu from "../components/TopMenu.svelte";
+	import Footer from "../components/Footer.svelte";
 
-<style lang="scss">
-  @import "../styles/style.scss";
-</style>
+	export let segment;
+</script>
 
 <TopMenu />
 <Nav {segment} />
 
 <main>
-  <slot />
+	<slot />
 </main>
 
 <Footer />

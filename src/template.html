@@ -8,10 +8,13 @@
 
 	%sapper.base%
 
-	<link rel='stylesheet' href='global.css'>
+	<link rel='stylesheet' href='css/style.css'>
+	<link rel='stylesheet' href='css/animate.css'>
+	<link rel='stylesheet' href='css/bootstrap.min.css'>
+	<link rel='stylesheet' href='css/fontawesome-all.min.css'>
+	<link rel='stylesheet' href='css/owl.carousel.min.css'>
 	<link rel='manifest' href='manifest.json' crossorigin='use-credentials'>
 	<link rel='icon' type='image/png' href='favicon.png'>
-	<link href="styles/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
@@ -26,12 +29,12 @@
 <body>
 	<!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
-	%sapper.html%
+	<div id='sapper'>%sapper.html%</div>
 
 	<!-- Sapper creates a <script> tag containing `src/client.js`
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
-	<!-- %sapper.scripts% -->
+	%sapper.scripts%
 </body>
 
 </html>

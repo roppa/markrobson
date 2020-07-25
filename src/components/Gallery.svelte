@@ -1,25 +1,21 @@
-<style lang="scss">
-  @import "../styles/style.scss";
-</style>
-
 <section id="gallery" class="p-0 line-effect">
   <div class="container">
 
     <ul class="gallery-filter list-inline text-center">
       <li>
-        <a href="#" data-group="all" class="active ml-2">SEE ALL</a>
+        <a href="." data-group="all" class="active ml-2">SEE ALL</a>
       </li>
       <li>
-        <a href="#" data-group="framed">FRAMED</a>
+        <a href="." data-group="framed">FRAMED</a>
       </li>
       <li>
-        <a href="#" data-group="print">PRINT</a>
+        <a href="." data-group="print">PRINT</a>
       </li>
       <li>
-        <a href="#" data-group="digital">DIGITAL</a>
+        <a href="." data-group="digital">DIGITAL</a>
       </li>
       <li>
-        <a href="#" data-group="photography">PHOTOGRAPHY</a>
+        <a href="." data-group="photography">PHOTOGRAPHY</a>
       </li>
     </ul>
 
@@ -41,11 +37,7 @@
               <p class="gallery-info text-center text-white">
                 Framed - From $29.99
                 <span class="gallery-icons">
-                  <a
-                    href=""
-                    class="gallery-button"
-                    data-toggle="modal"
-                    data-target=".framed-product">
+                  <a href="." class="gallery-button" data-toggle="modal" data-target=".framed-product">
                     <i class="fas fa-plus" />
                   </a>
                   <a href="shopping-cart.html" class="gallery-button">
@@ -62,9 +54,7 @@
 
       </li>
 
-      <li
-        class="col-md-6 col-lg-4 gallery tall-gallery"
-        data-groups="['photography', 'print']">
+      <li class="col-md-6 col-lg-4 gallery tall-gallery" data-groups="['photography', 'print']">
         <figure class="gallery-item effect-bubba">
           <img src="images/mgallery2.jpg" alt="" />
           <figcaption>
@@ -76,11 +66,7 @@
               <p class="gallery-info text-center text-white">
                 Print - From $14.99
                 <span class="gallery-icons">
-                  <a
-                    href=""
-                    class="gallery-button"
-                    data-toggle="modal"
-                    data-target=".print-product">
+                  <a href="." class="gallery-button" data-toggle="modal" data-target=".print-product">
                     <i class="fas fa-plus" />
                   </a>
                   <a href="shopping-cart.html" class="gallery-button">
@@ -109,11 +95,7 @@
               <p class="gallery-info text-center text-white">
                 Framed - From $99.99
                 <span class="gallery-icons">
-                  <a
-                    href=""
-                    class="gallery-button"
-                    data-toggle="modal"
-                    data-target=".framed-product">
+                  <a href="." class="gallery-button" data-toggle="modal" data-target=".framed-product">
                     <i class="fas fa-plus" />
                   </a>
                   <a href="shopping-cart.html" class="gallery-button">
@@ -142,11 +124,7 @@
               <p class="gallery-info text-center text-white">
                 Framed - From $69.99
                 <span class="gallery-icons">
-                  <a
-                    href=""
-                    class="gallery-button"
-                    data-toggle="modal"
-                    data-target=".framed-product">
+                  <a href="." class="gallery-button" data-toggle="modal" data-target=".framed-product">
                     <i class="fas fa-plus" />
                   </a>
                   <a href="shopping-cart.html" class="gallery-button">
@@ -163,9 +141,7 @@
 
       </li>
 
-      <li
-        class="col-md-6 col-lg-4 gallery"
-        data-groups="['photography', 'print']">
+      <li class="col-md-6 col-lg-4 gallery" data-groups="['photography', 'print']">
         <figure class="gallery-item effect-bubba">
           <img src="images/gallery5.jpg" alt="" />
           <figcaption>
@@ -177,11 +153,7 @@
               <p class="gallery-info text-center text-white">
                 Photography, Print - From $4.99
                 <span class="gallery-icons">
-                  <a
-                    href=""
-                    class="gallery-button"
-                    data-toggle="modal"
-                    data-target=".print-product">
+                  <a href="." class="gallery-button" data-toggle="modal" data-target=".print-product">
                     <i class="fas fa-plus" />
                   </a>
                   <a href="shopping-cart.html" class="gallery-button">
@@ -198,9 +170,7 @@
 
       </li>
 
-      <li
-        class="col-md-6 col-lg-4 gallery tall-gallery"
-        data-groups="['photography', 'digital']">
+      <li class="col-md-6 col-lg-4 gallery tall-gallery" data-groups="['photography', 'digital']">
         <figure class="gallery-item effect-bubba">
           <img src="images/mgallery6.jpg" alt="" />
           <figcaption>
@@ -212,11 +182,7 @@
               <p class="gallery-info text-center text-white">
                 Photography, Framed - From $24.49
                 <span class="gallery-icons">
-                  <a
-                    href=""
-                    class="gallery-button"
-                    data-toggle="modal"
-                    data-target=".framed-product">
+                  <a href="." class="gallery-button" data-toggle="modal" data-target=".framed-product">
                     <i class="fas fa-plus" />
                   </a>
                   <a href="shopping-cart.html" class="gallery-button">
@@ -233,9 +199,7 @@
 
       </li>
 
-      <li
-        class="col-md-6 col-lg-4 gallery"
-        data-groups="['photography', 'digital']">
+      <li class="col-md-6 col-lg-4 gallery" data-groups="['photography', 'digital']">
         <figure class="gallery-item effect-bubba">
           <img src="images/gallery7.jpg" alt="" />
           <figcaption>
@@ -247,11 +211,7 @@
               <p class="gallery-info text-center text-white">
                 Photography, Digital - From $9.99
                 <span class="gallery-icons">
-                  <a
-                    href=""
-                    class="gallery-button"
-                    data-toggle="modal"
-                    data-target=".digital-product">
+                  <a href="." class="gallery-button" data-toggle="modal" data-target=".digital-product">
                     <i class="fas fa-plus" />
                   </a>
                   <a href="shopping-cart.html" class="gallery-button">
@@ -268,9 +228,7 @@
 
       </li>
 
-      <li
-        class="col-md-6 col-lg-4 gallery"
-        data-groups="['photography', 'print', 'digital']">
+      <li class="col-md-6 col-lg-4 gallery" data-groups="['photography', 'print', 'digital']">
         <figure class="gallery-item effect-bubba">
           <img src="images/gallery8.jpg" alt="" />
           <figcaption>
@@ -282,11 +240,7 @@
               <p class="gallery-info text-center text-white">
                 Photography, Print, Digital - From $23.99
                 <span class="gallery-icons">
-                  <a
-                    href=""
-                    class="gallery-button"
-                    data-toggle="modal"
-                    data-target=".digital-product">
+                  <a href="." class="gallery-button" data-toggle="modal" data-target=".digital-product">
                     <i class="fas fa-plus" />
                   </a>
                   <a href="shopping-cart.html" class="gallery-button">
@@ -313,11 +267,7 @@
               <p class="gallery-info text-center text-white">
                 Framed - From $74.99
                 <span class="gallery-icons">
-                  <a
-                    href=""
-                    class="gallery-button"
-                    data-toggle="modal"
-                    data-target=".framed-product">
+                  <a href="." class="gallery-button" data-toggle="modal" data-target=".framed-product">
                     <i class="fas fa-plus" />
                   </a>
                   <a href="shopping-cart.html" class="gallery-button">

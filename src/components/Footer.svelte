@@ -1,7 +1,3 @@
-<style lang="scss">
-  @import "../styles/style.scss";
-</style>
-
 <div class="spacer-2x">&nbsp;</div>
 
 <div class="footer-widgets">
@@ -20,13 +16,13 @@
           <h3 class="widget-title">USEFUL LINKS</h3>
           <ul class="footer-list pl-0 mb-0">
             <li class="mb-3">
-              <a href="">Privacy Policy</a>
+              <a href=".">Privacy Policy</a>
             </li>
             <li class="mb-3">
-              <a href="">Terms &amp; Conditions</a>
+              <a href=".">Terms &amp; Conditions</a>
             </li>
             <li class="mb-3">
-              <a href="">News &amp; Updates</a>
+              <a href=".">News &amp; Updates</a>
             </li>
           </ul>
         </div>
@@ -38,13 +34,13 @@
           <h3 class="widget-title">CATEGORIES</h3>
           <ul class="footer-list pl-0 mb-0">
             <li class="mb-3">
-              <a href="">Framed</a>
+              <a href=".">Framed</a>
             </li>
             <li class="mb-3">
-              <a href="">Print</a>
+              <a href=".">Print</a>
             </li>
             <li class="mb-3">
-              <a href="">Digital</a>
+              <a href=".">Digital</a>
             </li>
           </ul>
         </div>
@@ -68,7 +64,7 @@
               </a>
             </li>
             <li class="mb-3">
-              <a href="">
+              <a href=".">
                 <i class="fab fa-twitter mr-2" />
                 @GallerioTwitter
               </a>
