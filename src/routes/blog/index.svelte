@@ -18,10 +18,10 @@
 </svelte:head>
 
 <div class="container">
-  <header class="about-header parallax">
+  <header class="home-header parallax">
     <div class="header-content dark text-center">
       <h1 class="header-title mb-0">BLOG</h1>
-      <p class="inner-space mb-0">Read about what really matters!</p>
+      <p class="inner-space mb-0">Art updates</p>
     </div>
   </header>
 </div>

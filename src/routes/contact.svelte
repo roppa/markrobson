@@ -3,7 +3,7 @@
 </svelte:head>
 
 <div class="container">
-  <header class="contact-header parallax">
+  <header class="home-header parallax">
     <div class="header-content dark text-center">
       <h1 class="header-title mb-0">CONTACT</h1>
       <p class="inner-space mb-0">Get in touch with me</p>
