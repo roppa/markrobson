@@ -1,5 +1,7 @@
 <script>
   import ContactWidget from "./ContactWidget.svelte";
+  import CryptoWidget from "./CryptoWidget.svelte";
+  import ShopWidget from "./ShopWidget.svelte";
 </script>
 
 <div class="spacer-2x">&nbsp;</div>
@@ -22,6 +24,8 @@
         </div>
       </div>
 
+      <ShopWidget />
+      <CryptoWidget />
       <ContactWidget />
 
     </div>

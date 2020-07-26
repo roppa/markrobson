@@ -10,7 +10,7 @@
         <div class="spacer spacer-line border-primary ml-0">&nbsp;</div>
         <div class="spacer">&nbsp;</div>
         <p class="mb-3">
-          I won't do a poncy third party description of myself.
+          I won't do a poncy third person description of myself.
         </p>
         <p>
           I've always been an artist. My first purpose in life was 'to become an
