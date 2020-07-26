@@ -62,26 +62,6 @@
             contact
           </a>
         </li>
-
-        <li class="nav-item dropdown">
-          <span
-            class="nav-link dropdown-toggle"
-            id="category-link"
-            data-toggle="category-dropdown"
-            aria-haspopup="true"
-            aria-expanded="false">
-            Categories
-          </span>
-          <div
-            class="dropdown-menu drop-to-right animated fadeIn fast"
-            id="category-dropdown"
-            aria-labelledby="category-link">
-            <a class="dropdown-item" href=".">Print</a>
-            <a class="dropdown-item" href=".">Digital</a>
-            <a class="dropdown-item" href=".">Photography</a>
-          </div>
-        </li>
-
       </ul>
 
     </div>
