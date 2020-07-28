@@ -1,4 +1,5 @@
 <script>
+  import SponsorWidget from "./SponsorWidget.svelte";
   import ContactWidget from "./ContactWidget.svelte";
   import CryptoWidget from "./CryptoWidget.svelte";
   import ShopWidget from "./ShopWidget.svelte";
@@ -9,25 +10,10 @@
 <div class="footer-widgets">
   <div class="container">
     <div class="row">
-      <div class="col-lg-3 text-center">
-        <div class="widget">
-          <img src="images/logo-icon.svg" alt="logo" class="footer-logo" />
-          <p class="mb-3">
-            <a href="https://www.buymeacoffee.com/JuWxHBA" target="_blank">
-              Buy me a coffee?
-            </a>
-            Or
-            <a href="https://ko-fi.com/markrobson" target="_blank">
-              buy me a Kofi?
-            </a>
-          </p>
-        </div>
-      </div>
-
+      <SponsorWidget />
       <ShopWidget />
       <CryptoWidget />
       <ContactWidget />
-
     </div>
 
   </div>

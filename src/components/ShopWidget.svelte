@@ -12,6 +12,9 @@
           Saatchi Art
         </a>
       </li>
+      <li class="mb-3">
+        <a href="https://www.etsy.com/uk/shop/artifyco" target="_blank">Etsy</a>
+      </li>
     </ul>
   </div>
 </div>
