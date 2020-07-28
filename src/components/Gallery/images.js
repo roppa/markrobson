@@ -11,11 +11,23 @@ const images = [{
   description: 'Fabric of many colours, shapes and shadows',
   url: '/images/gallery/bowl-red/fabric-in-bowl.jpg'
 }, {
+  title: 'Tangerines',
+  alt: '2 tangerines on a pedestal',
+  medium: 'oil',
+  description: 'Tangerines on a pedestal',
+  url: '/images/gallery/tangerines-fabric/tangerines.jpg'
+}, {
+  title: 'Pears and Lemons',
+  alt: 'pears and lemons on a table',
+  medium: 'oil',
+  description: 'Pears and Lemons',
+  url: '/images/gallery/pears-and-lemons/pears-and-lemons.jpg'
+}, {
   title: 'Dark landscape',
   alt: 'landscape with dark sky',
   medium: 'oil',
-  description: 'This is a copy of another artists work. On a landcape course the weather was not great so we used reference materials',
+  description: 'This is a copy of another artists work. On a landscape course the weather was not great so we used reference materials',
   url: '/images/gallery/landscape-course/landscape.jpg'
-}];
+}]
 
-export default images;
+export default images

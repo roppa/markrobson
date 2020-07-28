@@ -2,10 +2,16 @@
   import images from "./images";
 </script>
 
+<style>
+  ul {
+    align-items: center;
+  }
+</style>
+
 <section id="gallery" class="p-0 line-effect">
   <div class="container full-width">
     <h3 class="section-title hidden">GALLERY</h3>
-    <ul class="row gallery line-effect list-unstyled mb-0" id="grid">
+    <ul class="row gallery line-effect list-unstyled mb-0">
 
       {#each images as image}
         <li class="col-md-6 col-lg-4 gallery">
