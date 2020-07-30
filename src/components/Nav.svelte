@@ -51,7 +51,7 @@
           <span class="nav-link first-menu-item dropdown-toggle" id="learning-dropdown" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Learning</span>
           <div class="dropdown-menu drop-to-right animated fadeIn fast" aria-labelledby="learning-dropdown">
-            <a class="dropdown-item" href="/glossary">Art Glossary</a>
+            <a class="dropdown-item" href="/learning/glossary">Art Glossary</a>
           </div>
         </li>
 
