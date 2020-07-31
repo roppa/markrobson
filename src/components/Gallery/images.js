@@ -15,7 +15,7 @@ const images = [{
   alt: '2 tangerines on a pedestal',
   medium: 'oil',
   description: 'Tangerines on a pedestal',
-  url: '/images/gallery/tangerines-fabric/tangerines.jpg'
+  url: '/images/gallery/tangerines-fabric/tangerines-full.jpg'
 }, {
   title: 'Pears and Lemons',
   alt: 'pears and lemons on a table',
