@@ -51,7 +51,7 @@
           <span class="nav-link dropdown-toggle" id="learning-dropdown" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">learning</span>
           <div class="dropdown-menu drop-to-right" aria-labelledby="learning-dropdown">
-            <a class="dropdown-item" href="/learning/glossary">art Glossary</a>
+            <a class="dropdown-item" href="/learning/glossary">art glossary</a>
           </div>
         </li>
 
