@@ -83,6 +83,9 @@
             id="learning-dropdown"
             aria-labelledby="learning-dropdown">
             <a class="dropdown-item" href="/learning/glossary">art glossary</a>
+            <a class="dropdown-item" href="/learning/resources">
+              art resources
+            </a>
           </div>
         </li>
 
