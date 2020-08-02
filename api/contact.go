@@ -23,7 +23,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		r.FormValue("message")
 
 	err := smtp.SendMail("smtp.gmail.com:587",
-		smtp.PlainAuth("", from, os.Getenv("EMAIL_PASSWORD"), "smtp.gmail.com"),
+		smtp.PlainAuth("", os.Getenv("EMAIL_TO"), os.Getenv("EMAIL_PASSWORD"), "smtp.gmail.com"),
 		from, []string{os.Getenv("EMAIL_TO")}, []byte(msg))
 
 	if err != nil {
