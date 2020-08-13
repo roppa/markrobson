@@ -8,4 +8,4 @@
 </svelte:head>
 
 <Parallax />
-<Gallery />
+<Gallery images={'home'} />

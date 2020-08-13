@@ -1,5 +1,11 @@
 <script>
-  import images from "./images";
+  import home from "./images";
+  import portraits from "./portraits";
+  const galleryImages = {
+    home,
+    portraits,
+  };
+  export let images;
 </script>
 
 <style>
@@ -13,7 +19,7 @@
     <h3 class="section-title hidden">GALLERY</h3>
     <ul class="row gallery line-effect list-unstyled mb-0">
 
-      {#each images as image}
+      {#each galleryImages[images] as image}
         <li class="col-md-6 col-lg-4 gallery">
           <figure class="gallery-item effect-bubba">
             <img src={image.url} alt={image.alt} />

@@ -28,6 +28,18 @@ const images = [{
   medium: 'oil',
   description: 'This is a copy of another artists work. On a landscape course the weather was not great so we used reference materials',
   url: '/images/gallery/landscape-course/landscape.jpg'
+}, {
+  title: 'Luca',
+  alt: 'Luca child portrait',
+  medium: 'oil',
+  description: 'Portriat of a friends\' son',
+  url: '/images/gallery/portraits/luca.jpg'
+}, {
+  title: 'Paul',
+  alt: 'Profile portrait',
+  medium: 'oil',
+  description: 'Paul',
+  url: '/images/gallery/portraits/paul.jpg'
 }]
 
 export default images

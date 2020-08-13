@@ -89,6 +89,24 @@
           </div>
         </li>
 
+        <li class="nav-item dropdown">
+          <span
+            class="nav-link dropdown-toggle"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            data-target="commissions-dropdown"
+            on:click={dropdownToggle}>
+            commissions
+          </span>
+          <div
+            class="dropdown-menu drop-to-right"
+            id="commissions-dropdown"
+            aria-labelledby="commissions-dropdown">
+            <a class="dropdown-item" href="/portraits">portraits</a>
+          </div>
+        </li>
+
         <li class="nav-item">
           <a
             aria-current={segment === 'contact' ? 'page' : undefined}
