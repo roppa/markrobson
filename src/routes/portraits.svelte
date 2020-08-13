@@ -47,6 +47,8 @@
           <li>your portrait will be dispatched</li>
         </ol>
 
+        <p>Cost is £200 + £5 P&amp;P</p>
+
         <form
           style="display: inline-block;"
           target="paypal"
