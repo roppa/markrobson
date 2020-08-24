@@ -10,6 +10,15 @@
         <div class="spacer spacer-line border-primary ml-0">&nbsp;</div>
         <div class="spacer">&nbsp;</div>
 
+        <h4 class="section-title mb-0">Theory</h4>
+        <ul class="list-featured">
+          <li>
+            <a href="http://annwitheridge.com/articles/" target="_blank">
+              Ann Witherage articles
+            </a>
+          </li>
+        </ul>
+
         <h4 class="section-title mb-0">Materials</h4>
         <ul class="list-featured">
           <li>
